@@ -6,25 +6,24 @@ All the api end-point result images are inside the resources -> static folder
 
 # **Project Structure**
 employee-department-api/
-│
 ├── src/
-│ ├── main/
-│ │ ├── java/
-│ │ │ └── com.employee.employeeDepartment/
-│ │ │ ├── controller/
-│ │ │ ├── entity/
-│ │ │ ├── repository/
-│ │ │ ├── service/
-│ │ │ └── exception/
-│ │ └── resources/
-│ │ ├── application.properties
-│ │ ├── application-dev.properties
-│ │ ├── application-prod.properties
-│ │ └── static/
-│ │ └── images/
-│ └── test/
-│ └── java/
-│ └── com.employee.employeeDepartment/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com.employee.employeeDepartment/
+│   │   │       ├── controller/
+│   │   │       ├── entity/
+│   │   │       ├── repository/
+│   │   │       ├── service/
+│   │   │       └── exception/
+│   │   └── resources/
+│   │       ├── application.properties
+│   │       ├── application-dev.properties
+│   │       ├── application-prod.properties
+│   │       └── static/
+│   │           └── images/
+│   └── test/
+│       └── java/
+│           └── com.employee.employeeDepartment/
 ├── .gitignore
 └── README.md
 
@@ -53,3 +52,8 @@ employee-department-api/
 | PUT    | /employees/{id}       | Update employee            |
 | DELETE | /employees/{id}       | Delete employee            |
 
+## **Exception Handled**
+-  Custom-ResourceNotFoundException
+-  HttpRequestMethodNotSupportedException
+-  MethodArgumentNotValidException
+-  GlobalExceptionHandler to handle all exceptions
