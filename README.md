@@ -4,29 +4,33 @@ A Spring Boot REST API to manage **Employees** and **Departments** with CRUD ope
 # Images Uploaded
 All the api end-point result images are inside the resources -> static folder
 
+
+```
 # Project Structure
 
 employee-department-api/
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com.employee.employeeDepartment/
-│   │   │       ├── controller/
-│   │   │       ├── entity/
-│   │   │       ├── repository/
-│   │   │       ├── service/
-│   │   │       └── exception/
-│   │   └── resources/
-│   │       ├── application.properties
-│   │       ├── application-dev.properties
-│   │       ├── application-prod.properties
-│   │       └── static/
-│   │           └── images/
-│   └── test/
-│       └── java/
-│           └── com.employee.employeeDepartment/
-├── .gitignore
-└── README.md
+├─ src/
+│  ├─ main/
+│  │  ├─ java/
+│  │  │  └─ com.employee.employeeDepartment/
+│  │  │     ├─ controller/
+│  │  │     ├─ entity/
+│  │  │     ├─ repository/
+│  │  │     ├─ service/
+│  │  │     └─ exception/
+│  │  └─ resources/
+│  │     ├─ application.properties
+│  │     ├─ application-dev.properties
+│  │     ├─ application-prod.properties
+│  │     └─ static/
+│  │        └─ images/
+│  └─ test/
+│     └─ java/
+│        └─ com.employee.employeeDepartment/
+├─ .gitignore
+└─ README.md
+```
+
 
 
 ## **Database**
